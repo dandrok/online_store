@@ -1,0 +1,28 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px black;
+  padding: 3rem 0.5rem 3rem 0.5rem;
+  background-color: var(--white);
+}
+.product:hover {
+  border: solid 2px var(--btn-color);
+  cursor: pointer;
+}
+
+.product__img {
+  max-width: 180px;
+  padding-bottom: 3rem;
+}
+.product__title {
+  color: var(--btn-color);
+}
+
+h4 {
+  padding-bottom: 1rem;
+  color: var(--btn-color);
+}
+h3 {
+  font-weight: 500;
+}

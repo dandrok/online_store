@@ -1,0 +1,21 @@
+.products {
+  background-color: var(--bg-color);
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.section {
+  padding-top: 4rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 2em;
+  grid-auto-flow: dense;
+}
+@media only screen and (max-width: 320px) {
+  .section {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}

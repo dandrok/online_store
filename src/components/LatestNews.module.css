@@ -1,0 +1,31 @@
+.latest__news {
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  grid-gap: 3rem;
+  grid-auto-flow: dense;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1109px) {
+  .latest__news {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+@media only screen and (max-width: 859px) {
+  .latest__news {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+@media only screen and (max-width: 809px) {
+  .latest__news {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
+@media only screen and (max-width: 523px) {
+  .latest__news {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+}

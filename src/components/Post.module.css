@@ -1,0 +1,33 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  max-width: 520px;
+  height: auto;
+  border: solid 1px var(--black);
+}
+
+.text {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.arrow {
+  width: 40px;
+}
+
+.image {
+  height: 300px;
+}
+
+.image__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
