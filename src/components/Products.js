@@ -46,15 +46,15 @@ const Products = () => {
     <div className={classes.products}>
       <Titles />
       <section className={classes.section}>
-        {loadedProduct.map((prd) => (
+        {loadedProduct.map((prdk) => (
           <Product
-            key={prd.id}
-            id={prd.id}
-            color={prd.color}
-            description={prd.description}
-            name={prd.name}
-            price={prd.price}
-            image={prd.image}
+            key={prdk.id}
+            id={prdk.id}
+            color={prdk.color}
+            description={prdk.description}
+            name={prdk.name}
+            price={prdk.price}
+            image={prdk.image}
           />
         ))}
       </section>
