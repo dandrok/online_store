@@ -12,6 +12,7 @@ const Product = (props) => {
       />
       <h4 className={classes.product__title}>{props.name}</h4>
       <h3>{props.price}</h3>
+      <h4>Try</h4>
     </div>
   )
 }
