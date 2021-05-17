@@ -5,7 +5,7 @@ import ArrowLine from '../images/arrow_01.svg'
 
 const Post = (props) => {
   return (
-    <div className={classes.post} kay={props.key}>
+    <div className={classes.post}>
       <div className={classes.image}>
         <img
           src={props.image}
