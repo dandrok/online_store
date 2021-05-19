@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   border: solid 2px black;
-  padding: 3rem 0.5rem 3rem 0.5rem;
+  padding: 0;
   background-color: var(--white);
 }
 .product:hover {
@@ -12,8 +12,10 @@
 }
 
 .product__img {
-  max-width: 180px;
   padding-bottom: 3rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .product__title {
   color: var(--btn-color);
@@ -25,4 +27,21 @@ h4 {
 }
 h3 {
   font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.product__icon {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.product__icon_cart {
+  width: 24px;
+  height: 24px;
+  color: var(--black);
+}
+.product__icon_cart:hover {
+  color: var(--black);
+
+  opacity: 0.5;
 }

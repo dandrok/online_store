@@ -52,7 +52,7 @@ h1 span {
     z-index: 14;
   }
 }
-@media only screen and (max-width: 1480px) {
+@media only screen and (max-width: 1420px) {
   .hero__img img {
     display: none;
   }
