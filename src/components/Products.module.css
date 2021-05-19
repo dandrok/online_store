@@ -14,6 +14,17 @@
   grid-gap: 2em;
   grid-auto-flow: dense;
 }
+
+.title {
+  font-size: 2rem;
+}
+.line {
+  border-bottom: solid 1.5px var(--btn-color);
+  width: 8rem;
+  position: relative;
+  left: 2px;
+}
+
 @media only screen and (max-width: 320px) {
   .section {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));

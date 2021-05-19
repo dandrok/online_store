@@ -1,9 +1,0 @@
-.title {
-  font-size: 2rem;
-}
-.line {
-  border-bottom: solid 1.5px var(--btn-color);
-  width: 8rem;
-  position: relative;
-  left: 2px;
-}

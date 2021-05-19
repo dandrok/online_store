@@ -43,7 +43,12 @@ const LatestNews = () => {
   return (
     <section>
       <div className={classes.latest__news}>
-        <Titles />
+        <div>
+          <div className={classes.title}>
+            <p>News</p>
+          </div>
+          <div className={classes.line}></div>
+        </div>
       </div>
       <div className={classes.latest__news}>
         {loadedPost.map((pst) => (

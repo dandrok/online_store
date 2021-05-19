@@ -9,6 +9,16 @@
   padding-bottom: 2rem;
 }
 
+.title {
+  font-size: 2rem;
+}
+.line {
+  border-bottom: solid 1.5px var(--btn-color);
+  width: 8rem;
+  position: relative;
+  left: 2px;
+}
+
 @media only screen and (max-width: 1109px) {
   .latest__news {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

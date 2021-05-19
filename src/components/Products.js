@@ -3,7 +3,6 @@ import classes from './Products.module.css'
 import { useState, useEffect } from 'react'
 
 import Product from './Product'
-import Titles from './Titles'
 
 const Products = () => {
   const [isLoading, setIsLoading] = useState(true)
@@ -44,7 +43,12 @@ const Products = () => {
 
   return (
     <div className={classes.products}>
-      <Titles />
+      <div>
+        <div className={classes.title}>
+          <p>Products</p>
+        </div>
+        <div className={classes.line}></div>
+      </div>
       <section className={classes.section}>
         {loadedProduct.map((prdk) => (
           <Product
