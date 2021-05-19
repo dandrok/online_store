@@ -1,4 +1,3 @@
-import Titles from './Titles'
 import classes from './LatestNews.module.css'
 import Post from './Post'
 import { useEffect, useState } from 'react'
