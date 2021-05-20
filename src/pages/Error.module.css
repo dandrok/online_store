@@ -1,0 +1,22 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 50vh;
+  width: 100vw;
+}
+.error h2 {
+  color: rgb(185, 0, 0);
+  font-weight: 400;
+}
+
+.four {
+  font-size: 10rem;
+  font-weight: 200;
+}
+
+.error p {
+  font-size: 0.75rem;
+}

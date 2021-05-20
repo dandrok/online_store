@@ -1,19 +1,29 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Products from './components/Products';
-import LatestNews from './components/LatestNews';
-import Footer from './components/Footer';
+import './App.css'
+
+import Home from './pages/Home'
+import Error from './pages/Error'
+import Basket from './pages/Basket'
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Products />
-      <LatestNews />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route path='/basket'>
+            <Basket />
+          </Route>
+          <Route path='*'>
+            <Error />
+          </Route>
+        </Switch>
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
