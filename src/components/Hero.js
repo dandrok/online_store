@@ -1,6 +1,6 @@
-import React from 'react';
-import classes from './Hero.module.css';
-import pen from './KroneApollo-e1571972772455.png';
+import React from 'react'
+import classes from './Hero.module.css'
+import pen from '../images/KroneApollo-e1571972772455.png'
 const Hero = () => {
   return (
     <section className={classes.hero}>
@@ -10,10 +10,10 @@ const Hero = () => {
         </h1>
       </div>
       <div className={classes.hero__img}>
-        <img src={pen} alt="pen" />
+        <img src={pen} alt='pen' />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

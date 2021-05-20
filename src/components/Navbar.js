@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <nav className={classes.nav}>
       <div className={classes.logo}>
-        <p>Logo /.</p>
+        <p>
+          <a href='/'>Logo /.</a>
+        </p>
       </div>
       <div className={classes.menu}>
         {SomeData.map((link) => {
