@@ -1,7 +1,14 @@
-import React from 'react'
-
+import ProductPages from '../components/ProductPages'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 const ProductPage = () => {
-  return <div></div>
+  return (
+    <>
+      <Navbar />
+      <ProductPages />
+      <Footer />
+    </>
+  )
 }
 
 export default ProductPage
