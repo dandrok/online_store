@@ -33,8 +33,12 @@ const LatestNews = () => {
 
   if (isLoading) {
     return (
-      <section>
-        <p>Loading ...</p>
+      <section className={classes.loading}>
+        <div className={classes.lds_loading}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </section>
     )
   }

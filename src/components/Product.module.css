@@ -4,7 +4,7 @@
   align-items: center;
   border: solid 2px black;
   padding: 0;
-  background-color: var(--white);
+  background-color: white;
 }
 .product:hover {
   border: solid 2px var(--btn-color);
