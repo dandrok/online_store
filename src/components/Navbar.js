@@ -22,7 +22,7 @@ const Navbar = () => {
         })}
       </div>
       <div>
-        <a href='#'>
+        <a href='/basket'>
           <FaShoppingCart className={classes.icon} />
         </a>
       </div>
