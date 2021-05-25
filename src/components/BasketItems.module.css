@@ -1,0 +1,24 @@
+.main_ctnr {
+  border: solid black 1px;
+}
+
+.table__ {
+  display: flex;
+  gap: 1rem;
+}
+
+.image__ {
+  max-width: 100px;
+}
+
+.image__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 350px) {
+  .image__ {
+    max-width: 80px;
+  }
+}
